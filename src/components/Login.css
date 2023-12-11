@@ -1,0 +1,40 @@
+
+.login-page{
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    color: #CACBCC;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #E5E5E6;
+    outline: none;
+    margin-bottom: 20px;
+}
+.headings{
+    color: #B0B1B3;
+    font-size: 39px;
+}
+.button{
+    width: 100%;
+    background-color: #19191A;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+@media screen and (max-width: 881px){
+    .login-page{
+      width: 100vw;
+    }
+  }
+  @media screen and (max-width: 448px){
+    .login-page{
+      height: auto;
+    }
+  }

@@ -1,0 +1,47 @@
+.parent-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.left-card{
+    width: 50%;
+}
+.right-card{
+    width: 40%;
+    display: flex;
+}
+.right-card img{
+    width: 50%;
+}
+.heading{
+    font-size: 1.2rem;
+}
+.text-para{
+    color: #F2F2F2;
+    font-size: 0.8rem;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating-bell {
+    animation: rotate 3s infinite linear; /* Rotate every 3 seconds infinitely */
+  }
+
+  @media screen and (max-width: 558px){
+    .parent-card{
+        display: block;
+    }
+    .left-card{
+        width: 100%;
+    }
+    .right-card img{
+        width: 80%;
+    }
+  }

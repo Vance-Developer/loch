@@ -1,0 +1,26 @@
+.parent-card-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-card-middle{
+    width: 40%;
+}
+.right-card-middle{
+    width: 50%;
+    text-align: right;
+}
+.left-card-middle img{
+    width: 100%;
+}
+@media screen and (max-width: 558px){
+    .parent-card-middle{
+        display: block;
+    }
+    .right-card-middle{
+        width: 100%;
+    }
+    .left-card-middle img{
+        display: none;
+    }
+  }

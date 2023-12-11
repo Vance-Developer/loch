@@ -1,0 +1,23 @@
+.home-page {
+    background-color: #19191A;
+    height: 100vh;
+    width: 60vw;
+    overflow-x: hidden;
+}
+
+.radient {
+    background: url("../../public/images/blue.png");
+    min-height: 100%;
+    color: white;
+    padding: 70px 50px;
+}
+@media screen and (max-width: 881px){
+    .home-page{
+      width: 100vw;
+    }
+  }
+@media screen and (max-width: 558px){
+    .radient {
+        padding: 1.5rem;
+    }
+  }

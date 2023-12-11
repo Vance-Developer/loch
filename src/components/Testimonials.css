@@ -1,0 +1,31 @@
+.para{
+    text-align: right;
+}
+hr{
+    color: #E5E5E6;
+}
+.below-card{
+    display: flex;
+    align-items: center;
+}
+.span{
+    margin-right: 50px;
+}
+.below-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.below-cards img{
+    width: 50%;
+}
+
+@media screen and (max-width: 881px){
+    .below-card{
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: .5rem;
+    }
+    .span{
+        margin: 0;
+    }
+}
