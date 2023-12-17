@@ -1,6 +1,6 @@
 .home-page {
     background-color: #19191A;
-    height: 100vh;
+    max-height: 100vh;
     width: 60vw;
     overflow-x: hidden;
 }
